@@ -7,13 +7,13 @@
 
 **Example :**
 ```cpp
-//Run Code To Demonstrate use of set.emplace()
+//Run code to demonstrate use of set.emplace()
 #include<iostream>
 #include<set>
 
 int main(){
     // Create a set object holding integers
-    std::set<int> mySet {1,2,3,4,-5};
+    std::set<int> mySet {1, 2, 3, 4, -5};
 
     std::pair<std::set<int>::iterator,bool> pr;
     int key = 6;
@@ -22,10 +22,10 @@ int main(){
     std::set<int>::iterator itr = pr.first;
     inserted = pr.second;
     if(inserted){                                                              //checking if inserted in mySet
-        std::cout<<" New element: "<<key<<" inserted in set"<<'\n';            //print key inserted in the set.
+        std::cout << " New element: " << key << " inserted in set" << '\n';            //print key inserted in the set.
     }
     else{
-        std::cout<<" Element: "<<key<<" already present in the set"<<'\n';     //print key already present.
+        std::cout << " Element: " << key << " already present in the set" << '\n';     //print key already present.
     }
 
     return 0;

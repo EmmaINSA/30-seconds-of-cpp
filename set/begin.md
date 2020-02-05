@@ -5,7 +5,7 @@
 
 **Example :**
 ```cpp
-//Run Code To Demonstrate use of set.begin()
+//Run code to demonstrate use of set.begin()
 #include<iostream>
 #include<set>
 
@@ -13,7 +13,7 @@ int main(){
     // Create a set object holding integers
     std::set<int> mySet {1,2,3,4,-5};
 
-    std::cout << *(mySet.begin()) <<std::endl;
+    std::cout << *(mySet.begin()) << std::endl;
     return 0;
 }
 

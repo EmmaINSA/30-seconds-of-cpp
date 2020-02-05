@@ -5,7 +5,7 @@
 
 **Example :**
 ```cpp
-//Run Code To Demonstrate use of set.emplace_hint()
+//Run code to demonstrate use of set.emplace_hint()
 #include<iostream>
 #include<set>
 
@@ -17,8 +17,9 @@ int main(){
 	it = myset.emplace_hint (it,"yellow");
 	  
 	std::cout << "myset contains:";
-    for (const std::string& mystring: myset)
+    for (const std::string& mystring: myset){
 	  std::cout << ' ' << mystring;
+	}
 	std::cout << '\n';
 
     return 0;

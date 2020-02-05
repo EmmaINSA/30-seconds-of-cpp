@@ -6,21 +6,21 @@
 **Example :**
 
 ```cpp
-//Run Code To Demonstrate use of set.find()
+//Run code to demonstrate use of set.find()
 #include <iostream>
 #include <set>
 int main() {
     // Create a set object holding integers
     std::set<int> mySet {1, 2, 3, 4, -5};
     if (mySet.find(1) != mySet.end()) {
-        std::cout << "1 : is a element of mySet" << std::endl;
+        std::cout << "1 : is an element of mySet" << std::endl;
     } else {
-        std::cout << "1 : is not an element of myset" << std::endl;
+        std::cout << "1 : is not an element of mySet" << std::endl;
     }
     if (mySet.find(12) != mySet.end()) {
-        std::cout << "12 : is a element of mySet" << std::endl;
+        std::cout << "12 : is an element of mySet" << std::endl;
     } else {
-        std::cout << "12 : is not an element of myset" << std::endl;
+        std::cout << "12 : is not an element of mySet" << std::endl;
     }
     return 0;
 }

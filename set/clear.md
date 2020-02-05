@@ -5,15 +5,15 @@
 
 **Example :**
 ```cpp
-//Run Code To Demonstrate use of set.clear()
+//Run code to demonstrate use of set.clear()
 #include<iostream>
 #include<set>
 
 int main(){
     // Create a set object holding integers
-    std::set<int> myset {1,2,3,4,5};
+    std::set<int> myset {1, 2, 3, 4, 5};
     myset.clear();
-    std::cout << "Size of my set is : " << myset.size() << std::endl;
+    std::cout << "Size of myset is : " << myset.size() << std::endl;
 
     return 0;
 }

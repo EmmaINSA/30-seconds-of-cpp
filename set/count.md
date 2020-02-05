@@ -5,20 +5,20 @@
 
 **Example :**
 ```cpp
-//Run Code To Demonstrate use of set.count()
+//Run code to demonstrate use of set.count()
 #include<iostream>
 #include<set>
 
 int main(){
     // Create a set object holding integers
-    std::set<int> mySet {1,2,3,4,-5};
+    std::set<int> mySet {1, 2, 3, 4, -5};
     if(mySet.count(1)!=0){
-        std::cout << "1 : is not an element of myset" << std::endl;   
+        std::cout << "1 : is not an element of mySet" << std::endl;   
     }else{
         std::cout << "1 : is a element of mySet" << std::endl;
     }
     if(mySet.count(12)!=0){
-        std::cout << "12 : is not an element of myset" << std::endl;   
+        std::cout << "12 : is not an element of mySet" << std::endl;   
     }else{
         std::cout << "12 : is a element of mySet" << std::endl;
     }
